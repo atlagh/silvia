@@ -1,22 +1,30 @@
+.Wrap{
+	width: 100%;
+	display: flex;
+	box-shadow: 0 0px 10px;
+
+}
+
 .NavWrap{
+	width: 80%;
 	display: flex;
 	list-style: none;
 	height: 59px;
 	align-items: center;
-	box-shadow: 0 0px 10px
 }
 
 .NavLink{
 	display: inline-block;
-	margin-right: 75px;
-	margin-left: 75px;
+	margin-right: 5%;
+	margin-left: 8%;
 	cursor: pointer;
 }
 
 .NavSearch{
 	width: 10px;
 	height: 10px;
-	margin-left: 220px;
+	margin-left: 15%;
+	margin-top: 10px;
 	background-image: url('Search.png');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -32,7 +40,8 @@
 	background-repeat: no-repeat;
 	background-position: 140px 3px;
 	background-size: 20px 20px;
-	margin-left: 80px;
+	margin-left: 6%;
+	margin-top: 15px;
 	width: 150px;
 	border: 1px solid;
 	box-shadow: 10px;
@@ -41,5 +50,18 @@
 	font-size: 8px;
 }
 .NavSearch:focus{
+	background-image: url('Search.png');
+	background-repeat: no-repeat;
+	background-position: 140px 3px;
+	background-size: 20px 20px;
+	
+	margin-top: 15px;
+	width: 150px;
+	border: 1px solid;
+	box-shadow: 10px;
+	background-color: #FDEDEC;
+	padding: 8px 8px;
+	font-size: 8px;
 	outline: none;
 }
+
