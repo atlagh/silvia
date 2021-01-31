@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/silvia/static/css/main.6476395d.chunk.css",
+    "main.js": "/silvia/static/js/main.3f168a47.chunk.js",
+    "main.js.map": "/silvia/static/js/main.3f168a47.chunk.js.map",
+    "runtime-main.js": "/silvia/static/js/runtime-main.bcdee11b.js",
+    "runtime-main.js.map": "/silvia/static/js/runtime-main.bcdee11b.js.map",
+    "static/js/2.0aee01a4.chunk.js": "/silvia/static/js/2.0aee01a4.chunk.js",
+    "static/js/2.0aee01a4.chunk.js.map": "/silvia/static/js/2.0aee01a4.chunk.js.map",
+    "static/js/3.3a405a71.chunk.js": "/silvia/static/js/3.3a405a71.chunk.js",
+    "static/js/3.3a405a71.chunk.js.map": "/silvia/static/js/3.3a405a71.chunk.js.map",
+    "index.html": "/silvia/index.html",
+    "static/css/main.6476395d.chunk.css.map": "/silvia/static/css/main.6476395d.chunk.css.map",
+    "static/js/2.0aee01a4.chunk.js.LICENSE.txt": "/silvia/static/js/2.0aee01a4.chunk.js.LICENSE.txt",
+    "static/media/Navbar.css": "/silvia/static/media/Search.c497c1b1.png",
+    "static/media/logo.6ce24c58.svg": "/silvia/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcdee11b.js",
+    "static/js/2.0aee01a4.chunk.js",
+    "static/css/main.6476395d.chunk.css",
+    "static/js/main.3f168a47.chunk.js"
+  ]
+}
