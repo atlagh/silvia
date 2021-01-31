@@ -1,0 +1,45 @@
+.NavWrap{
+	display: flex;
+	list-style: none;
+	height: 59px;
+	align-items: center;
+	box-shadow: 0 0px 10px
+}
+
+.NavLink{
+	display: inline-block;
+	margin-right: 75px;
+	margin-left: 75px;
+	cursor: pointer;
+}
+
+.NavSearch{
+	width: 10px;
+	height: 10px;
+	margin-left: 220px;
+	background-image: url('Search.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	font-size: 0px;
+	padding: 12px 12px 12px 12px;
+	border: none;
+	transition-duration: 0.5s;
+}
+
+.NavSearch:hover{
+	background-image: url('Search.png');
+	background-repeat: no-repeat;
+	background-position: 140px 3px;
+	background-size: 20px 20px;
+	margin-left: 80px;
+	width: 150px;
+	border: 1px solid;
+	box-shadow: 10px;
+	background-color: #FDEDEC;
+	padding: 8px 8px;
+	font-size: 8px;
+}
+.NavSearch:focus{
+	outline: none;
+}
