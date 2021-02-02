@@ -14,11 +14,29 @@
 
 }
 
+.NavIcon{
+	visibility: hidden;
+}
+
 .NavLink{
 	display: inline-block;
 	margin-right: 5%;
-	margin-left: 8%;
+	margin-left: 4%;
+	width: 200px;
+	max-width: 200px;
+	padding-left: 10px;
 	cursor: pointer;
+}
+
+.NavLink:hover{
+	font-size: 20px;
+	color: pink;
+	text-decoration: underline;
+
+}
+
+.NavLink:active{	
+	font-size: 15px;
 }
 
 .NavSearch{
@@ -70,8 +88,71 @@
 }
 
 @media (max-width: 830px){
-	.NavLink{
+
+	.NavWrap{
+		display: grid;
 		visibility: hidden;
 	}
+
+	.NavIcon{
+		visibility: visible;
+		width: 30px;
+		height: 30px;
+		margin-left: 10px;
+		margin-top: 10px;
+		background-image: url('NavIcon.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 20px 20px;
+	}
+	.NavWrap:hover{
+		animation: 0.5s fadeIn;
+  		animation-fill-mode: forwards;
+		height:250px;
+		transition: all 1s;
+	}
+	
+
+	@keyframes fadeIn {
+		  99% {
+		    visibility: hidden;
+		  }
+		  100% {
+		    visibility: visible;
+		  }
+}
+	.NavSearch:hover{
+		background-position: 130px 3px;
+	}
+	.NavSearch:focus{
+		background-position: 130px 3px;
+
+	}	
+}
+
+@media (max-width: 730px){
+
+	.NavSearch:hover{
+		background-position: 112px 3px;
+
+	}
+	.NavSearch:focus{
+		background-position: 112px 3px;
+
+	}
+	
+}
+
+@media (max-width: 500px){
+
+	.NavSearch:hover{
+		background-position: 95px 4px;
+
+	}
+	.NavSearch:focus{
+		background-position: 95px 4px;
+
+	}
+	
 }
 
