@@ -143,16 +143,27 @@
 	
 }
 
-@media (max-width: 500px){
+@media (max-width: 414px){
+
+	.NavWrap{
+		width: 45%;
+	}
 
 	.NavSearch:hover{
-		background-position: 95px 4px;
+		background-position: 140px 4px;
 
 	}
 	.NavSearch:focus{
-		background-position: 95px 4px;
+		background-position: 140px 4px;
 
 	}
 	
+}
+
+@media (max-width: 376px){
+
+	.NavWrap{
+		width: 40%;
+	}
 }
 
