@@ -3,6 +3,7 @@
 	height: 185px;
 	display: flex;
 	justify-content: center;
+	background-color: blue;
 }
 
 .foot-wrap p{

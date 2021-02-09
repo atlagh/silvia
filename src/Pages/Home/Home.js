@@ -6,8 +6,9 @@ const Home = () => {
 	return(
 
 		<div className='home-wrap'>
-			<div className='home-head'> 
-				<p></p>
+			<div className='home-head'></div>
+
+			<div className='home-navigation'>
 			</div>
 		</div>
 
