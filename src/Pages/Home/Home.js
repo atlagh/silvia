@@ -9,9 +9,10 @@ const Home = () => {
 			<div className='home-head'></div>
 
 			<div className='home-navigation'>
-				<div className='home-navigation-parts'>hey</div>
-				<div className='home-navigation-parts'>hi</div>
-				<div className='home-navigation-parts'>yo</div>
+				<div></div>
+				<div className='home-navigation-parts1'>hey</div>
+				<div className='home-navigation-parts2'>hi</div>
+				<div className='home-navigation-parts3'>yo</div>
 			</div>
 		</div>
 
